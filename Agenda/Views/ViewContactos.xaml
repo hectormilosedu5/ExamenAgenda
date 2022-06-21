@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Agenda.Views.ViewContactos"
+             xmlns:local="clr-namespace:Agenda.ViewModels"
+             Title="Contacto"
+             Icon="contacto.png">
+
+    <ContentPage.BindingContext>
+        <local:VMContactos/>
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Formulario de Contactos" FontSize="25"/>
+
+            <Entry Text="{Binding Nombre}" Keyboard="Text" Placeholder="Ingrese Nombre de Contacto"/>
+            <Entry Text="{Binding Apellido}" Keyboard="Text" Placeholder="Ingrese Apellido de Contacto"/>
+            <Entry Text="{Binding Celular}" Keyboard="Numeric" Placeholder="Ingrese Numero Cellar"/>
+            <Entry Text="{Binding Fijo}" Keyboard="Numeric" Placeholder="Ingrese el Telefono Fijo"/>
+            <Entry Text="{Binding Email}" Keyboard="Text" Placeholder="Ingrese el Correo Electronico"/>
+
+            <Label Text="Reporte:"></Label>
+            <Label Text="{Binding Reporte}"></Label>
+
+            <Button Text="Guardar" Command="{Binding Crear}" ></Button>
+            <Button Text="Buscar" Command="{Binding Abrir}" ></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
