@@ -15,7 +15,7 @@
             <Label Text="Formulario de Contactos" FontSize="25"/>
 
             <Entry Text="{Binding Nombre}" Keyboard="Text" Placeholder="Ingrese Nombre de Contacto"/>
-            <Entry Text="{Binding Apellido}" Keyboard="Text" Placeholder="Ingrese Apellido de Contacto"/>
+            <Entry Text="{Binding Apelido}" Keyboard="Text" Placeholder="Ingrese Apellido de Contacto"/>
             <Entry Text="{Binding Celular}" Keyboard="Numeric" Placeholder="Ingrese Numero Cellar"/>
             <Entry Text="{Binding Fijo}" Keyboard="Numeric" Placeholder="Ingrese el Telefono Fijo"/>
             <Entry Text="{Binding Email}" Keyboard="Text" Placeholder="Ingrese el Correo Electronico"/>

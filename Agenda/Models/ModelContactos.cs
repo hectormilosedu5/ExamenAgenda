@@ -6,6 +6,9 @@ namespace Agenda.Models
 {
     class ModelContactos : ModelAgenda
     {
-
+        public void resetContacto()
+        {
+            
+        }
     }
 }

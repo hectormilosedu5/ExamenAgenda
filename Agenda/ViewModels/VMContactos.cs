@@ -15,15 +15,11 @@ namespace Agenda.ViewModels
         {
             Crear = new Command(() =>
             {
-                C.Nombre();
-                C.Apellido();
-                C.Celular();
-                C.Fijo();
-                C.Email();
+               
                 C = C;
 
                 BinaryFormatter formatter = new BinaryFormatter();
-                string ruta = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "Contacto.aut");
+                string ruta = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "Contactos.aut");
                 Stream archivo = new FileStream(ruta, FileMode.Create, FileAccess.Write, FileShare.None);
                 formatter.Serialize(archivo, C);
                 archivo.Close();
@@ -35,38 +31,13 @@ namespace Agenda.ViewModels
             {
 
                 BinaryFormatter formatter = new BinaryFormatter();
-                string ruta = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "Contacto.aut");
+                string ruta = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "Contactos.aut");
                 Stream archivo = new FileStream(ruta, FileMode.Open, FileAccess.Read, FileShare.None);
                 C = (VMContactos)formatter.Deserialize(archivo);
                 archivo.Close();
 
             });
 
-        }
-
-        private void Email()
-        {
-            throw new NotImplementedException();
-        }
-
-        private void Fijo()
-        {
-            throw new NotImplementedException();
-        }
-
-        private void Celular()
-        {
-            throw new NotImplementedException();
-        }
-
-        private void Apellido()
-        {
-            throw new NotImplementedException();
-        }
-
-        private void Nombre()
-        {
-            throw new NotImplementedException();
         }
 
         VMContactos c = new VMContactos();
@@ -83,22 +54,96 @@ namespace Agenda.ViewModels
             }
         }
 
+        String nombre;
+
+        public String Nombre
+        {
+            get => nombre;
+            set
+            {
+                nombre = value;
+                var args = new PropertyChangedEventArgs(nameof(Nombre));
+                PropertyChanged?.Invoke(this, args);
+            }
+        }
+
+        String apellido;
+
+        public String Apelido
+        {
+            get => apellido;
+            set
+            {
+
+                apellido = value;
+                var args = new PropertyChangedEventArgs(nameof(Apelido));
+                PropertyChanged?.Invoke(this, args);
+
+            }
+        }
+
+        String celular;
+
+        public String Celular
+        {
+            get => celular;
+            set
+            {
+                celular = value;
+                var args = new PropertyChangedEventArgs(nameof(Celular));
+                PropertyChanged?.Invoke(this, args);
+            }
+        }
+
+        String fijo;
+
+        public String Fijo
+        {
+            get => fijo;
+            set
+            {
+
+                fijo = value;
+                var args = new PropertyChangedEventArgs(nameof(Fijo));
+                PropertyChanged?.Invoke(this, args);
+
+            }
+        }
+
+        String email;
+
+        public String Email
+        {
+            get => email;
+            set
+            {
+
+                email = value;
+                var args = new PropertyChangedEventArgs(nameof(Email));
+                PropertyChanged?.Invoke(this, args);
+
+            }
+        }
+
+        String reporte;
+
+        public String Reporte
+        {
+            get => reporte;
+            set
+            {
+
+                reporte = value;
+                var args = new PropertyChangedEventArgs(nameof(Reporte));
+                PropertyChanged?.Invoke(this, args);
+
+            }
+        }
         public Command Crear { get; }
         public Command Abrir { get; }
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        protected bool SetProperty<T>(ref T field, T newValue, [CallerMemberName] string propertyName = null)
-        {
-            if (!Equals(field, newValue))
-            {
-                field = newValue;
-                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-                return true;
-            }
-
-            return false;
-        }
 
     }
 }

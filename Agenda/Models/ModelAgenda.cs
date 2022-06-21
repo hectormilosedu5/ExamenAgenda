@@ -9,8 +9,10 @@ namespace Agenda.Models
     {
         public string Nombre { get; set; }
         public string Apelido { get; set; }
-        public int Fijo { get; set; }
+        public double Fijo { get; set; }
         public string Email { get; set; }
-        public int Celular { get; set; }
+        public double Celular { get; set; }
+
     }
+
 }
