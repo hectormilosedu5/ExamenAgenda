@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "twRxc/OcL2y7FZDm4stOogU0+AvTcvoHnoKaMCfzlH+Ta2D54d2+cqlxTTYDSbEFqUDzyJyOIMs8f1vgRUEdww==",
+  "dgSpecHash": "If0TMZlC9Fsdi0ebpqXeWmQ83KpSkg1ZX4jT+TgPdcNT3af185YMxkYAX5iJ4JmNoUcxoZxNc2R7QsL1gK/pPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Desktop\\progra2 2022\\Agenda\\Agenda.Android\\Agenda.Android.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\progra2 2022\\ExamenAgenda\\Agenda.Android\\Agenda.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",

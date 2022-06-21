@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Desktop\\progra2 2022\\Agenda\\Agenda.Android\\Agenda.Android.csproj": {}
+    "C:\\Users\\USER\\Desktop\\progra2 2022\\ExamenAgenda\\Agenda.Android\\Agenda.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Desktop\\progra2 2022\\Agenda\\Agenda.Android\\Agenda.Android.csproj": {
+    "C:\\Users\\USER\\Desktop\\progra2 2022\\ExamenAgenda\\Agenda.Android\\Agenda.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\progra2 2022\\Agenda\\Agenda.Android\\Agenda.Android.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\progra2 2022\\ExamenAgenda\\Agenda.Android\\Agenda.Android.csproj",
         "projectName": "Agenda.Android",
-        "projectPath": "C:\\Users\\USER\\Desktop\\progra2 2022\\Agenda\\Agenda.Android\\Agenda.Android.csproj",
+        "projectPath": "C:\\Users\\USER\\Desktop\\progra2 2022\\ExamenAgenda\\Agenda.Android\\Agenda.Android.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\progra2 2022\\Agenda\\Agenda.Android\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\progra2 2022\\ExamenAgenda\\Agenda.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -37,8 +37,8 @@
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-              "C:\\Users\\USER\\Desktop\\progra2 2022\\Agenda\\Agenda\\Agenda.csproj": {
-                "projectPath": "C:\\Users\\USER\\Desktop\\progra2 2022\\Agenda\\Agenda\\Agenda.csproj"
+              "C:\\Users\\USER\\Desktop\\progra2 2022\\ExamenAgenda\\Agenda\\Agenda.csproj": {
+                "projectPath": "C:\\Users\\USER\\Desktop\\progra2 2022\\ExamenAgenda\\Agenda\\Agenda.csproj"
               }
             }
           }
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\USER\\Desktop\\progra2 2022\\Agenda\\Agenda\\Agenda.csproj": {
+    "C:\\Users\\USER\\Desktop\\progra2 2022\\ExamenAgenda\\Agenda\\Agenda.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\progra2 2022\\Agenda\\Agenda\\Agenda.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\progra2 2022\\ExamenAgenda\\Agenda\\Agenda.csproj",
         "projectName": "Agenda",
-        "projectPath": "C:\\Users\\USER\\Desktop\\progra2 2022\\Agenda\\Agenda\\Agenda.csproj",
+        "projectPath": "C:\\Users\\USER\\Desktop\\progra2 2022\\ExamenAgenda\\Agenda\\Agenda.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\progra2 2022\\Agenda\\Agenda\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\progra2 2022\\ExamenAgenda\\Agenda\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",

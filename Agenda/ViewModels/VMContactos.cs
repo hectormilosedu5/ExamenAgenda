@@ -27,7 +27,7 @@ namespace Agenda.ViewModels
             });
 
 
-            Abrir = new Command(() =>
+            Busqueda = new Command(() =>
             {
 
                 BinaryFormatter formatter = new BinaryFormatter();
@@ -140,7 +140,7 @@ namespace Agenda.ViewModels
             }
         }
         public Command Crear { get; }
-        public Command Abrir { get; }
+        public Command Busqueda { get; }
 
         public event PropertyChangedEventHandler PropertyChanged;
 

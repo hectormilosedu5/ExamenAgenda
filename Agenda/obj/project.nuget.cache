@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cmg9xZY19RpApwnwYEIG/i0Dq9E5mDWbIvBIAwChTeZ1iFK7VajudpWWTKWizO50ewCkdl7UkPFfMuZ8YqgU2g==",
+  "dgSpecHash": "7MAlnLEDX62+3FyJVG80vMsfDLltw82BOkBqNOV9Cih//ZerPd3kSsiOVnZy0tf11NcJ0tndxmyq2TJoeFV/jg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Desktop\\progra2 2022\\Agenda\\Agenda\\Agenda.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\progra2 2022\\ExamenAgenda\\Agenda\\Agenda.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
